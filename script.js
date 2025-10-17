@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            timeLeft-= 2;
+            timeLeft -= 2;
             countdownDisplay.textContent = timeLeft;
         }, 1000);
     };
